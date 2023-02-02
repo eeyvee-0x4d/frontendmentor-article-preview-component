@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <main class="wrapper">
+            <div class="article-card">
+                <div class="article-card__img">
+                    <img src="images/drawers.jpg" alt="">
+                </div>
+                <div class="article-card__content">
+                    <h2 class="content__title">Shift the overall look and feel by adding these wonderful touches to furniture in your home.</h2>
+                    <p class="content__text">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+                    <div class="where-the-magic-happens">
+                        <div class="author">
+                            <div class="author__details">
+                                <div class="author__avatar">
+                                    <img src="images/avatar-michelle.jpg" alt="">
+                                </div>
+                                <div class="article__details">
+                                    <p class="author__name">Michelle Appleton</p>
+                                    <p class="article-date">28 Jun 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile-share-links">
+                            <span>SHARE</span>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com" target="__blank">
+                                        <img src="images/icon-facebook.svg" alt="">
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="https://www.twitter.com" target="__blank">
+                                        <img src="images/icon-twitter.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.pinterest.com" target="__blank">
+                                        <img src="images/icon-pinterest.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="__blank">
+                                        <img src="images/icon-youtube.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="author__share-button">
+                            <button class="author__share" onclick="toggleShareLinks()">
+                                <img src="images/icon-share.svg" alt="">
+                            </button>
+                            <div class="share-button__tooltip">
+                                <span>SHARE</span>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com" target="__blank">
+                                            <img src="images/icon-facebook.svg" alt="">
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com" target="__blank">
+                                            <img src="images/icon-twitter.svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.pinterest.com" target="__blank">
+                                            <img src="images/icon-pinterest.svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="__blank">
+                                            <img src="images/icon-youtube.svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <script src="index.js"></script>
+</html>
